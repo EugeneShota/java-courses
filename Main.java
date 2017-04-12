@@ -11,8 +11,10 @@ public class Main {
     int myWeight=90;
     String outString=myName + "and My Age " + age + " and My weight " + myWeight;
     System.out.println(outString);
-    boolean oldMan=age>99;
+    boolean oldMan=age>=99;
+    boolean y=age<99;
     System.out.println("Am I old? "+oldMan);
+    System.out.println("Am I y? " + y);
     }
 
 }
