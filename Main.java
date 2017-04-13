@@ -5,16 +5,18 @@ public class Main {
 
     public static  void  main(String [] arg) {
     System.out.println("Hello world!!!");
-    int age=20;
-    System.out.println(age);
-    String myName = "Eugene";
-    int myWeight=90;
-    String outString=myName + "and My Age " + age + " and My weight " + myWeight;
-    System.out.println(outString);
-    boolean oldMan=age>=99;
-    boolean y=age<99;
-    System.out.println("Am I old? "+oldMan);
-    System.out.println("Am I y? " + y);
+    Student studentEugene=new Student();
+        studentEugene.name="Eugene";
+        studentEugene.age=20;
+        studentEugene.sayHello();
+    Student studentMax;
+    studentMax=new Student();
+        studentMax.name="Max";
+        studentMax.age=20;
+        studentMax.sayHello();
+    Classs classJava= new Classs();
+    classJava.name="Class Java";
+        System.out.println(""+classJava.name);
     }
 
 }
